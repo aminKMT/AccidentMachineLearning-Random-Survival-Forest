@@ -167,7 +167,7 @@ The RSF approach to competing risks proves its effectiveness in identifying risk
 # Citation 
 Please kindly cite the following paper when utilizing our data or code: 
 
-```
+```HTML
 @article{keramati2020crash,
   title={A crash severity analysis at highway-rail grade crossings: The random survival forest method},
   author={Keramati, Amin and Lu, Pan and Iranitalab, Amirfarrokh and Pan, Danguang and Huang, Ying},
