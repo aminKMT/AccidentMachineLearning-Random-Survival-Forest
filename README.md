@@ -163,3 +163,18 @@ title("(b)",cex.main=2, adj=0,line = 1)]
 ```
 The result of the above script is depicted as part b in the previously mentioned Figure 3. We used the same process to create the other three plots. From part b, we can infer that adding a stop sign to the existing combination of a gate, standard flashing light, and audible device reduces the cumulative probabilities of Property Damage Only (PDO) and fatal crashes up until the seventh year. However, beyond this point, the crossings are more prone to PDO and fatal crashes. Moreover, over the 29-year span, the likelihood of injury crashes is slightly higher (an average increase of 12%) at crossings where a stop sign has been added. This trend could be attributed to some drivers getting confused about how far they should check for traffic when stop signs are used at HRGCs (Jeng, 2005).
 The RSF approach to competing risks proves its effectiveness in identifying risk factors and their marginal probabilities for crash severity by calculating event-specific Variable Importance (VIMP) and event-specific CIF. The model delivers precise results in identifying and summarizing the contributing factors and risks. For further details about fitting the Random Survival Forest Model to Crash Prediction, please refer to the publication link [here](https://doi.org/10.1016/j.aap.2020.105683).
+
+# Citation 
+Please kindly cite the following paper when utilizing our data or code: 
+
+```
+@article{keramati2020crash,
+  title={A crash severity analysis at highway-rail grade crossings: The random survival forest method},
+  author={Keramati, Amin and Lu, Pan and Iranitalab, Amirfarrokh and Pan, Danguang and Huang, Ying},
+  journal={Accident Analysis \& Prevention},
+  volume={144},
+  pages={105683},
+  year={2020},
+  publisher={Elsevier}
+}
+```
